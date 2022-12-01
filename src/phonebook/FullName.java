@@ -25,7 +25,6 @@ public class FullName {
         FullName fullName = (FullName) o;
         return Objects.equals(firstName, fullName.firstName) && Objects.equals(lastName, fullName.lastName);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(firstName, lastName);
